@@ -1,0 +1,14 @@
+[programs.localnet]
+submarine_marketplace_contract = "Fg6PaFpoGXkYsidMpWTK6W2BeZ7FEfcYkg476zPFsLnS"
+[programs.devnet]
+submarine_marketplace_contract = "4NkEmqohQGvZo191pHG117LYGHm26rdp3TsdSDML1NGq"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "https://metaplex.devnet.rpcpool.com/"
+wallet = "/home/messi/submarine/Submarine_marketplace_contract/submarine_dev.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
